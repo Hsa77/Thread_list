@@ -10,9 +10,9 @@ Second: add thread to object<br />
 > Signature
 ```json
 {
-    "target": callable,
-    "args": tuple,
-    "kwargs": dict
+    "target": "callable",
+    "args": "tuple",
+    "kwargs": "dict"
 }
 ```
 Third: call the object to run the tread<br />
