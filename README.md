@@ -1,13 +1,13 @@
-# Thread_list
-python class that make threading easier 
+# Thread_list<br />
+python class that make threading easier <br />
 
-First: crete a class object first<br />
+### First: crete a class object first<br />
 if you want to thread over single function pass the function as parameter
 > class_obj = Thread_list()
 
-Second: add thread to object<br />
+### Second: add thread to object<br />
 > class_obj.add_tread(target, args, kwargs)
-> Signature
+Signature<br />
 ```json
 {
     "target": "callable",
@@ -15,6 +15,6 @@ Second: add thread to object<br />
     "kwargs": "dict"
 }
 ```
-Third: call the object to run the tread<br />
-join_trd: if you want to join the threads
+### Third: call the object to run the tread<br />
+join_trd: if you want to join the threads<br />
 > class_obj(join_trd=False)
