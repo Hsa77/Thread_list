@@ -16,5 +16,5 @@ Second: add thread to object<br />
 }
 ```
 Third: call the object to run the tread<br />
-join_trd: if you want to join the threads (all the threads Done)
+join_trd: if you want to join the threads
 > class_obj(join_trd=False)
